@@ -1,0 +1,30 @@
+.Navbar{
+    height:60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid grey;
+    background-color: white;
+    .container {
+ 
+        display:flex;
+        align-items:center;
+        justify-content:space-between ;
+        
+       margin-top: 10px;
+
+    }
+    .right-side{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        .logout{
+            font-size: 1.8rem;
+            display: flex;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
