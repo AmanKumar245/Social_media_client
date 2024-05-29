@@ -50,9 +50,10 @@ setIsFollowing(feedData?.followings?.find(item => item._id === params.userId))
        <div className="profile-card">
         <img className='user-img' src={userProfile?.avatar?.url} alt="user img"  />
         <h3 className="user-name">{userProfile?.name}</h3>
+        <p>{userProfile?.bio} </p>
         <div className="follower-info">
           <h4>{`${userProfile?.followers.length} follower`}</h4> 
-           <h4>{`${userProfile?.followings.length} follower`}</h4>
+           <h4>{`${userProfile?.followings.length} following`}</h4>
         </div>
         {!ismyProfile &&<h5 onClick={handleUserFollow}
     className= {isFollowing ? 'hover-link follow-link' : 'btn-primary' } 
