@@ -29,7 +29,7 @@ function Navbar() {
       <div className="container">
         <h2 className="banner hover-link" 
         onClick = {()=>navigate("/")}>
-        Social Media
+        ShareMemo
         </h2>
         <div className="right-side">
         <div 
