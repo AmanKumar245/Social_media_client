@@ -7,6 +7,29 @@
     .heading {
         text-align: center;
     }
+     .login-form__header{
+        display: flex;
+        height: 340px;
+       max-width: 400px;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       margin-right: 50px;
+       flex-direction: column;
+    }
+    .login-form__header__title{
+        padding-bottom: 20px;
+    }
+
+    .login-form__header__text{
+        display: inline;
+        align-items: center;
+        
+        display: flex;
+        word-break: break-all;
+       
+
+    }
 
     .signup-Box{
         padding: 40px;
