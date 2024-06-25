@@ -30,6 +30,10 @@ function Login() {
   
   return (
     <div className='Login'>
+     <div className="login-form__header">
+        <h1 className="login-form__header__title">Welcome to Share Memo</h1>
+        <p className="login-form__header__text">Join our community and connect with friends, share your moments, and stay updated with the latest trends. Sign in to explore a world of endless possibilities and fun! </p>
+      </div>
         <div className="login-Box">
             <h2 className="heading">Login</h2>
             <form onSubmit={handleSubmit}>
