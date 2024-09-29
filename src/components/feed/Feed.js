@@ -13,7 +13,7 @@ function Feed() {
   useEffect(() =>{
     dispatch(getFeedData())
 
-  },[dispatch])
+  },[dispatch , feedData, getFeedData])
 
 
   return (
