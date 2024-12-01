@@ -9,11 +9,13 @@ function Feed() {
 
   const dispatch = useDispatch();
   const feedData = useSelector(state => state.feedDataReducer.feedData)
+    const feedVersion = useSelector((state) => state.feedDataReducer.version); //changes track
+
 
   useEffect(() =>{
     dispatch(getFeedData())
 
-  },[dispatch , feedData, getFeedData])
+  },[dispatch ])
 
 
   return (
